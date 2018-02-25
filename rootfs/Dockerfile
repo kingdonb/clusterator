@@ -1,4 +1,4 @@
-FROM quay.io/kingdonb/base:v0.3.6
+FROM quay.io/kingdonb/base:v0.3.7
 
 ENV CLOUD_SDK_REPO="cloud-sdk-xenial" \
 	GCLOUD_CREDENTIALS_FILE="clusterator.json" \
