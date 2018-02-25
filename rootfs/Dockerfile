@@ -2,7 +2,7 @@ FROM quay.io/kingdonb/base:v0.3.7
 
 ENV CLOUD_SDK_REPO="cloud-sdk-xenial" \
 	GCLOUD_CREDENTIALS_FILE="clusterator.json" \
-	GCLOUD_PROJECT_ID="deis-e2e-leasable" \
+	GCLOUD_PROJECT_ID="hephy-e2e-leasable" \
 	NUMBER_OF_CLUSTERS=1 \
 	NUM_NODES="5" \
 	MACHINE_TYPE="n1-standard-4" \
